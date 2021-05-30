@@ -350,7 +350,7 @@ public class Calc extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new Calc("Máy tính bỏ túi");
+        new Calc("Máy tính bỏ túi").setLocationRelativeTo(null);
 
     }
 }
